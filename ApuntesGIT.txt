@@ -1,0 +1,29 @@
+información de un commit
+*porque se realiza
+*fin de cambio
+*descripcion del cambio
+
+# configuración inicial de git
+git config --global user.name "Isamar"
+git config --global user.email "<ice_girl009@hotmail.com>"
+git config --global color.ui auto//da color a la linea de comando
+
+git init//inicializa
+git clone [URL]// clona un repositorio existente 
+git pushd //hace una conexión por ejemplo dropbox
+git init --bare respositorio.git // crea un repositorio donde solo se pueden enviar cambios desde otro repositorio
+touch main.c //agrega archivo
+git add [file]//agrega archivos para poder hacer cambios / commits
+git commit -m "observaciones"// guarda cambios para git
+git push -u origin master// sincronizar cambios locales al servidor
+
+***control de Git
+rm Archivo// elimina archivo de git
+git log --oneline//muestra los commits en una sola linea
+git diff HEAD~1 HEAD //compara commits
+
+*****efectuar cambios
+git status //muestra arch que fueron modificados 
+git diff //diferencia entre archivos
+git diff --staged//muestra la diferencia entre el area de espera y la ultima version
+git reset [file]//regresa al edo inicial moviendo del area de espera
