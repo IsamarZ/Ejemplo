@@ -1,6 +1,18 @@
 creado con el fin de modificar!=D
 esta es la siguiente linea
 
-prueba del comando git log --amed
+
+prueba del comando git log --amend
 //encargado de combiar este cambio con el commit anterior
 
+tambien existe el comando 
+git checkout -- archivo.txt//deshace cambios y regresa al archiv
+o a su edo originalsiempre y cuando no se haya realizado un git add
+
+git reset HEAD texto.txt//literalmente dice deshacer los cambios
+del ultimo commit en el archivo texto.txt
+
+
+modificando el drectorio
+
+otra mas
