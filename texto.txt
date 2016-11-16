@@ -1,2 +1,6 @@
 creado con el fin de modificar!=D
-esta es la siguiente linea 
+esta es la siguiente linea
+
+prueba del comando git log --amed
+//encargado de combiar este cambio con el commit anterior
+
