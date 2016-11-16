@@ -27,3 +27,10 @@ git status //muestra arch que fueron modificados
 git diff //diferencia entre archivos
 git diff --staged//muestra la diferencia entre el area de espera y la ultima version
 git reset [file]//regresa al edo inicial moviendo del area de espera
+
+***cambios grupales
+git branch //muestra las ramas existentes
+git branch [branch - name]//crea una nueva rama
+git checkout [branch - name]// cambia la rama señalada
+git merge [branch] combina el historial de la rama especificada con la actual
+git branch -d [branch - name]//borra la rama especificada
