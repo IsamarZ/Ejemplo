@@ -34,3 +34,39 @@ git branch [branch - name]//crea una nueva rama
 git checkout [branch - name]// cambia la rama señalada
 git merge [branch] combina el historial de la rama especificada con la actual
 git branch -d [branch - name]//borra la rama especificada
+
+***nombres del archivo de refactorizacion
+git rm [file]//borra el archivo del directorio
+git rm --cached [file]//retira el archivo de control de versiones, pero preserva el archivo a nivel local
+git mv [file-original] [file-renamed]//cambia el nombre del archivo
+
+***suprimir archivos temporales y rutas
+git ls-files --other --ignored --exclude-standard //muestra todos los archivos ignorados en este proyecto
+
+***guardar fragmentos(almacen y restauracion de cambios incompletos)
+git stash //almacena temporalmente los archivos tracked modificados 
+git stash pop //restaura los archivos guardados recientemente
+git stash list//enumera cambios en guardado rapido
+git stash drop//elimina el set de cambios guardado rapido mas reciente
+
+***navegacion de  historial!
+git log //muestra el historial de la rama actual
+git log --follow [file]//muestra el historial del archivo
+git diff [primera-rama] [segunda-rama]//historiales de ambas ramas en comparacion
+git show [commit]//muestra los cambios del commit especificado
+
+***rehacer commits
+git reset [commit]//deshace los commits depsues del commit especificado de manera local
+git reset --hard [commit] deshace el historial y regresa al especificado
+
+***sincroniza cambios
+git fetch [bookmark]//historial del marcador de repositorio
+git merge [bookmark]/[branch]//combina la rama del marcador con la rama local actual
+git push [alias] [branch]//carga todos los commits de la rama local al github
+git pull //descarga el historial del marcador
+
+
+
+
+
+
