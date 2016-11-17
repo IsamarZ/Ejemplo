@@ -13,6 +13,7 @@ git reset HEAD texto.txt//literalmente dice deshacer los cambios
 del ultimo commit en el archivo texto.txt
 
 
-modificando el drectorio
 
-otra mas
+
+
+
