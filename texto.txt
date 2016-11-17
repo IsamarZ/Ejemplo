@@ -14,5 +14,6 @@ del ultimo commit en el archivo texto.txt
 
 
 la prueba funciono!! =D
-vamoa a elimirnar este commit
+
+
 
